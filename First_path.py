@@ -10,4 +10,6 @@ for i in range(path_length):
     xs.append(path)
 
 plt.plot(xs)
+plt.xlabel("steps")
+plt.ylabel("path")
 plt.show()

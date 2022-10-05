@@ -11,5 +11,8 @@ for ps in p_values:
         path += step
         xs.append(path)
 
-    plt.plot(xs)
+    plt.plot(xs, label='p=' + str(ps[0]))
+plt.xlabel("steps")
+plt.ylabel("path")
+plt.legend(loc='upper left', prop={'size': 6})
 plt.show()
