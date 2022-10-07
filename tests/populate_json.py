@@ -7,8 +7,8 @@ from word_predictor.populate_word_data import *
 # testing populate_count_map()
 # testing data is stored in text_docs/tests
 curr_path = os.path.dirname(__file__)
-file1 = 'C:/Users/Kunal Pathak/Desktop/cs/Extra Work/PersonalProjects/Markov_Learning/text_docs/tests/test0.txt'
-file2 = 'C:/Users/Kunal Pathak/Desktop/cs/Extra Work/PersonalProjects/Markov_Learning/text_docs/tests/test3.txt'
+file1 = 'REDACTED'
+file2 = 'REDACTED'
 
 # print(populate_count_map(file1, count_map={}))
 def test_count_map1():
