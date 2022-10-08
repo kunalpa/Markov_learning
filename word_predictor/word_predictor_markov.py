@@ -8,7 +8,6 @@ When a word is entered, a next word is generated based on the most probable foll
 
 with open('word_predictor/word_data.json') as file:
     data = json.load(file)
-print(data)
 inp = input("Enter word: ")
 if inp in data:
     print(data[inp][0])
