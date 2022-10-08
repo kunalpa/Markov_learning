@@ -6,6 +6,10 @@ from word_predictor.populate_word_data import *
 
 # testing populate_count_map()
 # testing data is stored in text_docs/tests
+<<<<<<< HEAD
+=======
+curr_path = os.path.dirname(__file__)
+>>>>>>> 259ce4c74591a7d52359356a1c48767f92be58bf
 file1 = 'REDACTED'
 file2 = 'REDACTED'
 
